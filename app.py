@@ -35,3 +35,11 @@ if st.button("Gerar História"):
                 st.error(f"Erro ao gerar história: {str(e)}")
     else:
         st.warning("Por favor, preencha todos os campos obrigatórios!")
+st.markdown("---")  # linha horizontal para separar
+
+st.markdown(
+    "<p style='text-align: center; font-size: 12px; color: gray;'>"
+    "Desenvolvido por Sanmir Gabriel | © 2025 | Contato: sanmir@email.com"
+    "</p>", 
+    unsafe_allow_html=True
+)
